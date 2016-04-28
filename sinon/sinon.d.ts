@@ -431,5 +431,6 @@ declare namespace Sinon {
 declare var sinon: Sinon.SinonStatic;
 
 declare module "sinon" {
+    namespace sinon {}
     export = sinon;
 }
